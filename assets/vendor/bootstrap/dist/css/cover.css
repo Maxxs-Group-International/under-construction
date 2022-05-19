@@ -25,6 +25,21 @@ body {
   max-width: 42em;
 }
 
+.cover-container::before {
+  background-image: url('../../../../../assets/images/under-construction.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.15;
+}
+
 
 /*
  * Header
